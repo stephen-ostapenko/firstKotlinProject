@@ -1,3 +1,5 @@
-fun main() {
-    println("Hello, World!")
+fun main(args: Array <String>) {
+    for (a in args) {
+        println(a)
+    }
 }
